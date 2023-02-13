@@ -49,7 +49,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: 897143170532.dkr.ecr.us-west-1.amazonaws.com/tap-apps/mysensors-dev@sha256:f98357f2deed9744e471effc9e254f70ded7f862e644c39a5f590018a654e58f
+        image: 897143170532.dkr.ecr.us-west-1.amazonaws.com/tap-apps/mysensors-dev@sha256:cc495957cd57910e3f147be2324b5fb0816f9235da2bda984a5f489d43897a37
         livenessProbe:
           httpGet:
             path: /livez
