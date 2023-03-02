@@ -34,7 +34,7 @@ spec:
           value: https://mood-sensors.dev.tap.ycf.link/activate
         - name: SENSORS_MEASURE_API
           value: https://mood-sensors.dev.tap.ycf.link/measure
-        image: 897143170532.dkr.ecr.us-west-1.amazonaws.com/tap-apps/mood-portal-team@sha256:13dac8f703b5d1543be332060e9b66316642b953f7ee6276873c1444421679a1
+        image: 897143170532.dkr.ecr.us-west-1.amazonaws.com/tap-apps/mood-portal-team@sha256:1b6cae71e85f2a43f6db8b00ba3a9b4ed5408d7fea9df9af666ded3606e23fcb
         name: workload
         resources: {}
         securityContext:
