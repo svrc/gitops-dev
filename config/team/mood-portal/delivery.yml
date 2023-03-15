@@ -30,7 +30,7 @@ spec:
       containers:
       - env:
         - name: SNIFF_THRESHOLD
-          value: "50"
+          value: "20"
         - name: SENSORS_ACTIVATE_API
           value: https://mood-sensors.dev.tap.ycf.link/activate
         - name: SENSORS_MEASURE_API
